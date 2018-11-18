@@ -177,7 +177,7 @@ function playFreq(){
 }
 
 function mouseMoved(){
-  oct = int(map(height - mouseY, 0 , height, 0 ,48) / 8)
+  oct = int(map(height - mouseY, 0 , height, 0 ,48) / 6)
   keyIndex = int(map(height - mouseY, 0 , height, 0 , 48) % 6)
   playFreq()
 }
